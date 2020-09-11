@@ -1,0 +1,20 @@
+#!/bin/zsh
+
+alias vim="nvim"
+alias 6cord="6cord -u $(cat ~/.config/6cord/email) -p $(cat ~/.config/6cord/pass)"
+alias pyfetch="python ~/scripts/py/pyfetch.py"
+alias bspwmrc="vim ~/.config/bspwm/bspwmrc"
+alias sxhkdrc="vim ~/.config/sxhkd/sxhkdrc"
+alias rzsh="source ~/.zshrc"
+alias ralias="source ~/aliases"
+alias aliases="vim ~/aliases; ralias"
+alias zshrc="vim ~/.zshrc; rzsh"
+alias ~="cd ~"
+alias colors="python ~/scripts/py/colors.py"
+alias dmenu='dmenu -sb \#D53AFF -nb \#222222 -sf \#222222 -fn "Source Code Pro:bold:pixelsize=13"'
+alias vimrc="vim ~/.nvim/init.vim"
+alias 256color="python ~/scripts/py/256.py"
+alias neofetch="neofetch --ascii_distro arch_small --ascii_colors 4 4 --colors 4 4 4 4 4 15"
+alias scrot="scrot; mv ~/*scrot.png ~/scrots"
+alias musb="sudo mount /dev/sdb1 ~/usb; sudo chown marcos ~/usb"
+alias dots="git --git-dir=$HOME/dotfiles --work-tree $HOME"

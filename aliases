@@ -2,7 +2,7 @@
 
 alias vim="nvim"
 alias 6cord="6cord -u $(cat ~/.config/6cord/email) -p $(cat ~/.config/6cord/pass)"
-alias pyfetch="python ~/scripts/py/pyfetch.py"
+alias pyfetch="python ~/pyfetch/pyfetch.py"
 alias bspwmrc="vim ~/.config/bspwm/bspwmrc"
 alias sxhkdrc="vim ~/.config/sxhkd/sxhkdrc"
 alias rzsh="source ~/.zshrc"
@@ -18,3 +18,6 @@ alias neofetch="neofetch --ascii_distro arch_small --ascii_colors 4 4 --colors 4
 alias scrot="scrot; mv ~/*scrot.png ~/scrots"
 alias musb="sudo mount /dev/sdb1 ~/usb; sudo chown marcos ~/usb"
 alias dots="git --git-dir=$HOME/dotfiles --work-tree $HOME"
+alias mgoose="lighttpd -D -f ~/goose/lconfig & disown; clear"
+alias tilde="mosh --ssh='ssh -i ~/Descargas/id_rsa' marcoslp@tilde.town"
+alias sorvor="ssh 192.168.1.78 -p 8022"
